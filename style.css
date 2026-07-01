@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact-us{
+    border: 1px solid black;
+    padding: 40px 50px;
+    margin: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    box-shadow: 3px 3px 50px rgb(202, 201, 201);
+}
+
+hr{
+    height: 50vh;
+}
+
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+}
+
+.contact-left i{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.contact-left h3{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.contact-left p{
+    font-size: 14px;
+    color: gray;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+form input, form textarea{
+    padding: 15px;
+    width: 80%;
+    border: none;
+    background-color: rgb(217, 242, 250);
+}
+
+form button{
+    padding: 10px 15px;
+    border: none;
+    background-color: rgb(24, 82, 127);
+    color: white;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.contact-right h2{
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.contact-right p{
+    color: gray;
+    font-size: 14px;
+}
